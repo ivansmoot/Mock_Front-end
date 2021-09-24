@@ -7,7 +7,7 @@
     <el-sub-menu index="1">
       <template #title>数据Mock</template>
       <el-menu-item index="/mock/interfacecapture">已有数据查询</el-menu-item>
-      <el-menu-item index="/mock/mockdataselect">接口抓包</el-menu-item>
+      <el-menu-item index="/mock/dataselect">接口抓包</el-menu-item>
     </el-sub-menu>
     <el-menu-item index="/save">预留</el-menu-item>
     
