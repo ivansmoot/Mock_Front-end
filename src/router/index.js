@@ -1,10 +1,11 @@
 import MockInterfaceCapture from '../components/Mock/MockInterfaceCapture.vue'
 import MockDataSelect from '../components/Mock/MockDataSelect.vue'
 import TheLogin from '../components/public/TheLogin.vue'
+import TheHome from '../components/public/TheHome.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
-    { path: '/', component: TheLogin },
+    { path: '/', component: TheHome },
     { path: '/login', component: TheLogin },
     { path: '/mock/interfacecapture', component: MockInterfaceCapture },
     { path: '/mock/dataselect', component: MockDataSelect }
